@@ -70,6 +70,7 @@ public class Plugins {
 
     /** Creates a new instance of Plugins
      * @param pluginRoot The root od the directory tree to scan for Jars
+     * @throws IOException
      * containing plugins.
      */
     public Plugins(File pluginRoot) throws IOException {
